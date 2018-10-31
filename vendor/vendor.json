@@ -639,6 +639,12 @@
 			"revisionTime": "2016-08-03T19:07:31Z"
 		},
 		{
+			"checksumSHA1": "8uabyueLMgwtPtbtILsEGFEtqU4=",
+			"path": "github.com/joyent/fsnotify",
+			"revision": "ab56e31a45114dd2637d0a7e79241d1f0a8d20df",
+			"revisionTime": "2018-10-30T22:57:43Z"
+		},
+		{
 			"checksumSHA1": "NY84PNFBfNvxJgNEMVKUOJhcVsY=",
 			"path": "github.com/json-iterator/go",
 			"revision": "f2b4162afba35581b6d4a50d3b8f34e33c144682",
@@ -1332,12 +1338,6 @@
 			"path": "gopkg.in/alecthomas/kingpin.v2",
 			"revision": "1087e65c9441605df944fb12c33f0fe7072d18ca",
 			"revisionTime": "2017-07-27T04:22:29Z"
-		},
-		{
-			"checksumSHA1": "0ks+iNxFZmKu2nBuEmCGJqdiYgs=",
-			"path": "gopkg.in/fsnotify/fsnotify.v1",
-			"revision": "30411dbcefb7a1da7e84f75530ad3abe4011b4f8",
-			"revisionTime": "2016-04-12T13:37:56Z"
 		},
 		{
 			"checksumSHA1": "pfQwQtWlFezJq0Viroa/L+v+yDM=",
@@ -2585,5 +2585,5 @@
 			"revisionTime": "2018-06-29T01:24:20Z"
 		}
 	],
-	"rootPath": "github.com/prometheus/prometheus"
+	"rootPath": "github.com/joyent/prometheus"
 }
