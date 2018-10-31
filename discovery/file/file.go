@@ -31,7 +31,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"gopkg.in/fsnotify/fsnotify.v1"
+	"github.com/joyent/fsnotify"
 	"gopkg.in/yaml.v2"
 )
 
