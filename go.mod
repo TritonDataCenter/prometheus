@@ -5,6 +5,7 @@ require (
 	github.com/Azure/go-autorest v10.8.1+incompatible
 	github.com/StackExchange/wmi v0.0.0-20180725035823-b12b22c5341f // indirect
 	github.com/VividCortex/ewma v1.1.1 // indirect
+	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/aws/aws-sdk-go v0.0.0-20180507225419-00862f899353
 	github.com/biogo/store v0.0.0-20160505134755-913427a1d5e8 // indirect
@@ -22,7 +23,6 @@ require (
 	github.com/elastic/gosigar v0.9.0 // indirect
 	github.com/elazarl/go-bindata-assetfs v1.0.0 // indirect
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
-	github.com/fsnotify/fsnotify v1.4.7 // indirect
 	github.com/getsentry/raven-go v0.1.0 // indirect
 	github.com/ghodss/yaml v0.0.0-20150909031657-73d445a93680 // indirect
 	github.com/go-ini/ini v1.21.1 // indirect
@@ -57,6 +57,7 @@ require (
 	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
 	github.com/jackc/pgx v3.2.0+incompatible // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20160803190731-bd40a432e4c7 // indirect
+	github.com/joyent/fsnotify v1.4.7
 	github.com/json-iterator/go v0.0.0-20180612202835-f2b4162afba3
 	github.com/jtolds/gls v4.2.1+incompatible // indirect
 	github.com/julienschmidt/httprouter v0.0.0-20150905172533-109e267447e9 // indirect
@@ -88,7 +89,7 @@ require (
 	github.com/prometheus/client_golang v0.9.1
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
 	github.com/prometheus/common v0.0.0-20181119215939-b36ad289a3ea
-	github.com/prometheus/tsdb v0.3.1
+	github.com/prometheus/tsdb v0.3.2-0.20181219094047-6d489a1004dc
 	github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a // indirect
 	github.com/rlmcpherson/s3gof3r v0.5.0 // indirect
 	github.com/rubyist/circuitbreaker v2.2.1+incompatible // indirect
@@ -115,8 +116,6 @@ require (
 	google.golang.org/genproto v0.0.0-20170531203552-aa2eb687b4d3
 	google.golang.org/grpc v0.0.0-20170516193736-3419b4295567
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
-	gopkg.in/fsnotify.v1 v1.4.7 // indirect
-	gopkg.in/fsnotify/fsnotify.v1 v1.3.0
 	gopkg.in/inf.v0 v0.9.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/vmihailenco/msgpack.v2 v2.9.1 // indirect
