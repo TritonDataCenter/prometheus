@@ -36,6 +36,7 @@ require (
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/hashicorp/serf v0.9.0 // indirect
 	github.com/influxdata/influxdb v1.8.0
+	github.com/joyent/fsnotify v1.4.8-0.20181030225743-ab56e31a4511
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.9
 	github.com/julienschmidt/httprouter v1.3.0 // indirect
@@ -73,7 +74,6 @@ require (
 	google.golang.org/genproto v0.0.0-20200603110839-e855014d5736
 	google.golang.org/grpc v1.29.1
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
-	gopkg.in/fsnotify/fsnotify.v1 v1.4.7
 	gopkg.in/yaml.v2 v2.3.0
 	gopkg.in/yaml.v3 v3.0.0-20200603094226-e3079894b1e8
 	k8s.io/api v0.18.3
@@ -83,4 +83,7 @@ require (
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66 // indirect
 )
 
-replace k8s.io/klog => github.com/simonpasquier/klog-gokit v0.1.0
+replace (
+	gopkg.in/fsnotify/fsnotify.v1 => github.com/joyent/fsnotify v1.4.8-0.20181030225743-ab56e31a4511
+	k8s.io/klog => github.com/simonpasquier/klog-gokit v0.1.0
+)
